@@ -34,6 +34,7 @@ const actions = {
     commit("emptyCart");
   }
 };
+
 const mutations = {
   getProductData(state) {
     state.products = products;
